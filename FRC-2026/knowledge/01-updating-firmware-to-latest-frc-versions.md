@@ -51,7 +51,37 @@ In the tool:
 3. Click "Configure"
 4. Wait for the configuration to complete
 
-#### 3. Verify Firmware Version
+#### 3. Web-Based Configuration Interface
+
+You can also access the VividHosting radio's web configuration interface directly by navigating to the radio's IP address in a browser:
+
+![VividHosting Web Configuration](photos/vividhosting-radio-setup/IMG_0177.jpg)
+
+Key configuration options:
+- **Robot Radio Mode**: Set to "Access Point Mode" for normal operation
+- **Enable 2.4 GHz Wi-Fi**: Check for practice (disabled at competitions)
+- **Enable SystemCore Mode**: For advanced configurations
+- **Team Number**: Enter your 4-digit team number
+- **WPA Key**: Set encryption passphrase (must match Driver Station)
+- **SSID Suffix**: Optional identifier appended to network name
+- **Wi-Fi Channel**: Select appropriate channel (auto-assigned at competitions)
+
+#### 4. Verify Connectivity Statistics
+
+After configuration, check the Connectivity Statistics page to verify proper operation:
+
+![Connectivity Statistics](photos/vividhosting-radio-setup/IMG_0179.jpg)
+*VH-109 Connectivity Statistics showing link status and firmware upload option*
+
+Verify these values:
+- **Linked**: Should show "True" when connected
+- **Linked MAC Address**: Shows the connected device's MAC
+- **Receive Rate**: Should show high Mbps (929.4 Mbps in example)
+- **Connection Quality**: Should show "excellent"
+
+This page also provides the **Firmware Upload** option for updating the radio firmware when new versions are released.
+
+#### 5. Verify Firmware Version
 
 After configuration, verify the radio is running the latest firmware. Our radio is currently running:
 
