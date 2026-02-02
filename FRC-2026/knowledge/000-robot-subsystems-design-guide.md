@@ -6,6 +6,7 @@
 
 ## Related Documentation
 
+- [Turret Strategy (Google Doc)](https://docs.google.com/document/d/1WeEUyfwCS4K-zV9DrKdq06biDVZyRlgV0zLkby5eSyU/edit?tab=t.0#heading=h.8uu09bemwrf8) - Original mentor planning document
 - [Firmware Updates](01-updating-firmware-to-latest-frc-versions.md) - Pre-season hardware setup
 - [AprilTag Vision](02-reading-april-tags.md) - Vision localization with PhotonVision
 - [Virtual Field Setup](03-setup-virtual-game-field.md) - Simulation and testing
